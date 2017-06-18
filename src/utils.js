@@ -33,7 +33,7 @@ export function safeSerialize( envelope ) {
 			safeSerialize( val );
 		}
 		if ( _.isArray( val ) ) {
-			_.each( val, safeSerialize );
+			_.forEach( val, safeSerialize );
 		}
 	}
 	return envelope;
