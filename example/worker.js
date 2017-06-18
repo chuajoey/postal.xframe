@@ -5,7 +5,7 @@
         }
     };
     importScripts(
-        "../node_modules/babel-core/browser-polyfill.js",
+        "../node_modules/babel-es6-polyfill/browser-polyfill.js",
         "../node_modules/lodash/index.js",
         "../node_modules/postal/lib/postal.js",
         "../node_modules/postal.federation/lib/postal.federation.js",

@@ -1,3 +1,4 @@
+import "babel-es6-polyfill";
 import _ from "lodash";
 import postal from "postal";
 import {
